@@ -1,0 +1,51 @@
+<!--
+            [['3','male','34.5','0','0','330911','7.8292', 'D43','Q'],
+         ['2','female','30', '0','0','330912','88','C53','Q']],
+           columns = [ 'Pclass','Sex','Age','SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+ 
+-->
+<html>
+<body>
+    <h2>Song Danceability Classification</h3>
+<div>
+  
+    <form action="/predict" method="POST">
+
+        <label for="explicit">explicit</label>
+        <input type="text"   id="explicit" name="explicit">
+        <br>
+        <label for="energy">energy</label>
+        <input type="text"   id="energy" name="energy">
+        <br>
+        <label for="key">key</label>
+        <input type="text"   id="key" name="key">
+        <br>
+        <label for="loudness">loudness</label>
+        <input type="text"   id="loudness" name="loudness">
+        <br>
+        <label for="speechiness">speechiness</label>
+        <input type="text"   id="speechiness" name="speechiness">
+        <br>
+        <label for="acousticness">acousticness</label>
+        <input type="text"   id="acousticness" name="acousticness">
+        <br>
+        <label for="instrumentalness">instrumentalness</label>
+        <input type="text"   id="instrumentalness" name="instrumentalness">
+        <br>
+        <label for="liveness">liveness</label>
+        <input type="text"   id="liveness" name="liveness">
+        <br>
+        <label for="valence">valence</label>
+        <input type="text"   id="valence" name="valence">
+        <br>
+        <label for="tempo">tempo</label>
+        <input type="text"   id="tempo" name="tempo">
+        <br>
+
+        <input type="submit" value="Submit">
+
+    
+  </form>
+</div>
+</body>
+</html>
